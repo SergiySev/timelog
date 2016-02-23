@@ -1,0 +1,33 @@
+.paginator {
+  display: inline-block;
+  padding: 0;
+}
+
+.paginator > li {
+  display: inline;
+  padding: 5px 10px;
+  border: solid 1px #2980b9;
+  cursor: pointer;
+  float: left;
+  font-size: 0.8em;
+  border-right: none;
+  color: #2980b9;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.paginator > li:last-child {
+  border-right: solid 1px #2980b9;
+}
+
+.paginator > li:hover , .paginator .active  {
+  color: #ecf0f1;
+  background-color: #2980b9;
+}
+.paginator .active  {
+  cursor: default;
+}
