@@ -1,11 +1,8 @@
 <?php
 include 'config.php';
-error_reporting(E_ALL);
-ini_set('display_errors','On');
 
 $totalPages = 0;
 $currentPage = isset($_POST['page']) ? ((int) $_POST['page']) : 1;
-$limit = 6;
 $pagesCount = 0;
 $offset = 0;
 
